@@ -1,0 +1,22 @@
+{
+    "name": "prueba_tecnica/postgresql",
+    "description": "cotizacion clinica",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "araujonatalia",
+            "email": "natikaraujo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-pdo": "*",
+        "ext-pdo_pgsql": "*",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
