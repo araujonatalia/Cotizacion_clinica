@@ -1,0 +1,41 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+*.env
+
+# Composer
+/vendor/
+
+# Node (por si usas npm para Bootstrap, jQuery, etc.)
+/node_modules/
+package-lock.json
+npm-debug.log
+
+# Archivos temporales y de backup
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Cache de PHP
+*.cache
+*.php~
+
+# Archivos de despliegue
+.env.*
+*.zip
+*.tar.gz
+
+# Build o distribución
+/dist/
+public/build/
